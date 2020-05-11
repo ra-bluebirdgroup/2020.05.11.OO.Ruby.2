@@ -22,12 +22,20 @@ role1 = Role.new(ironman1, robert)
 role2 = Role.new(ironman2, robert)
 role3 = Role.new(spiderman1, tom)
 
+# Viewer instances (2): 
+
+adam = Viewer.new("Adam", 25)
+belle = Viewer.new("Belle", 30)
+
+# Screen instances (2): 
+
+screen1 = Screen.new(ironman1, adam)
+screen2 = Screen.new(spiderman1, belle)
+
 binding.pry
 
 # # # 
 
 # puts ironman1 
 
-# 
-
-# 
+# puts role1.team  
