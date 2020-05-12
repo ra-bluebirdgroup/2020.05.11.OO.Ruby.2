@@ -2,9 +2,8 @@ class Director
     attr_accessor :name
     @@all = [] 
 
-    def initialize(name, movie)
+    def initialize(name)
         @name = name 
-        @movie = movie
         Director.all << self
     end
 

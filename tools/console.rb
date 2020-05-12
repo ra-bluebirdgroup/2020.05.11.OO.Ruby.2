@@ -52,3 +52,11 @@ binding.pry
 # puts role1.team  
 
 # 
+
+# 1. Make your Role model more robust (add in attributes that make sense)
+# 2. A movie should have many viewers
+# 3. Viewers can watch many movies
+# 4. A Movie can have many awards 
+# 5. An Actor can have many awards 
+# 6. A Movie belongs to a Director
+# 7. An Actor has many Directors through Movie 
