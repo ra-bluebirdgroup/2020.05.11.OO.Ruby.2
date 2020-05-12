@@ -1,10 +1,11 @@
 class Movie
-    attr_accessor :title, :genre 
+    attr_accessor :title, :genre, :director
     @@all = []
 
-    def initialize(title, genre) 
+    def initialize(title, genre, director) 
         @title = title
         @genre = genre 
+        @director = director 
         Movie.all << self
     end
 

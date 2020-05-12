@@ -27,5 +27,10 @@ class Actor
     def new_role(movie)
         Role.new(movie, self)
     end
+
+    # def directors
+    #     Movie.all.select do |movie|
+    #         movie.director ==
+    # end
     
 end

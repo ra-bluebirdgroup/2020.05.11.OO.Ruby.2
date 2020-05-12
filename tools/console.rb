@@ -32,6 +32,17 @@ belle = Viewer.new("Belle", 30)
 screen1 = Screen.new(ironman1, adam)
 screen2 = Screen.new(spiderman1, belle)
 
+# Award instances (2):
+
+award1 = Award.new("Golden Globes", robert)
+award2 = Award.new("Oscars", robert)
+
+# Director instances (2):
+
+jonf = Director.new("Jon Favreau", ironman1)
+jonf = Director.new("Jon Favreau", ironman2)
+jonw = Director.new("Jon Watts", spiderman1)
+
 binding.pry
 
 # # # 
@@ -39,3 +50,5 @@ binding.pry
 # puts ironman1 
 
 # puts role1.team  
+
+# 
