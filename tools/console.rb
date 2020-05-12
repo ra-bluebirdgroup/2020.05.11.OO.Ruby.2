@@ -22,8 +22,41 @@ role1 = Role.new(ironman1, robert)
 role2 = Role.new(ironman2, robert)
 role3 = Role.new(spiderman1, tom)
 
+# Viewer instances (2): 
+
+adam = Viewer.new("Adam", 25)
+belle = Viewer.new("Belle", 30)
+
+# Screen instances (2): 
+
+screen1 = Screen.new(ironman1, adam)
+screen2 = Screen.new(spiderman1, belle)
+
+# Award instances (2):
+
+award1 = Award.new("Golden Globes", robert)
+award2 = Award.new("Oscars", robert)
+
+# Director instances (2):
+
+jonf = Director.new("Jon Favreau", ironman1)
+jonf = Director.new("Jon Favreau", ironman2)
+jonw = Director.new("Jon Watts", spiderman1)
+
 binding.pry
 
 # # # 
 
 # puts ironman1 
+
+# puts role1.team  
+
+# 
+
+# 1. Make your Role model more robust (add in attributes that make sense)
+# 2. A movie should have many viewers
+# 3. Viewers can watch many movies
+# 4. A Movie can have many awards 
+# 5. An Actor can have many awards 
+# 6. A Movie belongs to a Director
+# 7. An Actor has many Directors through Movie 
