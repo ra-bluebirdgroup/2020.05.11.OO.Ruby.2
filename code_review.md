@@ -1,9 +1,11 @@
 #Code review
+
 ##Domain summary:
  This domain includes the following models:
 movie, director, actor, role, screen, viewer, and a contract model which I added.
 
 ##Model review
+
 ###Movie Model
  The movie model currently has title, genre, director, and actor attributes.
  this implies the following relationships:
